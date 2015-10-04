@@ -4,10 +4,10 @@ brocco.config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/home')
   $stateProvider.state('home', {
     url: '/home',
-    template: '<h1>HOME</h1>'
+    templateUrl: 'home.html'
   })
   .state('talks', {
     url: '/talks',
-    template: '<h1>TALKS</h1>'
+    templateUrl: 'talks.html'
   });
 })
